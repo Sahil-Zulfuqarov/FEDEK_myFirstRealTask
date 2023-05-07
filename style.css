@@ -356,32 +356,37 @@ button:active{
 }
 
 @media(max-width: 950px){
+    body{
+        display: flex;
+        align-items: center;
+    }
+
     .divmenu{
         flex-direction: column;
         width: 100%;
     }
 
-    .aa1:active .divulmenu{
+    .aa1:hover .divulmenu{
         position: relative;
         width: 100%;
     }
 
-    .aa2:active .divulaile{
+    .aa2:hover .divulaile{
         position: relative;
         width: 100%;
     }
 
-    .aa3:active .divulusaq{
+    .aa3:hover .divulusaq{
         position: relative;
         width: 100%;
     }
 
-    .aa4:active .divulbiznes{
+    .aa4:hover .divulbiznes{
         position: relative;
         width: 100%;
     }
 
-    .aa5:active .divulcay{
+    .aa5:hover .divulcay{
         position: relative;
         width: 100%;
     }
