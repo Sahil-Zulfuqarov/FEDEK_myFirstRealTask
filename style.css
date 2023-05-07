@@ -386,42 +386,55 @@ button:active{
         width: 100%;
     }
 
-
-
-    .aa1:hover .divulmenu{
-        display: none;
-    }
-
-    .aa2:hover .divulaile{
-        display: none;
-    }
-
-    .aa3:hover .divulusaq{
-        display: none;
-    }
-
-    .aa4:hover .divulbiznes{
-        display: none;
-    }
-
-    .aa5:hover .divulcay{
-        display: none;
-    }
-
-
-
-
     .headerdiv2, .headerdiv1{
         display: none;
     }
 
     h1{
+        
         text-align: center;
     }
 
     .abc1{
-        width: 70%;
+        width: 50%;
         margin-right: 300px;
     }
+
+    .ww{
+        position: absolute;
+        bottom: -190px;
+        right: 20px;
+        width: 50px;
+        display: none;
+    }
+
+    .rr{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rrr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+
+    .mm{
+        width: 80px;
+    }
+
+    .rrp{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .ee{
+        width: 40%;
+        font-size: 8px;
+    }
+
+    
 
 }
