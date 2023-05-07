@@ -232,6 +232,10 @@ a{
     display: none;
 }
 
+.divulmenu, .divulaile, .divulusaq, .divulbiznes, .divulcay{
+    min-width: 350px;
+}
+
 .ulaile{
     width: ;
     background-color: #333;
