@@ -391,13 +391,16 @@ button:active{
     }
 
     h1{
-        
+        width: 390px;
         text-align: center;
+        margin-left: 120px;
+        font-size: 60px;
     }
 
     .abc1{
         width: 50%;
         margin-right: 300px;
+        font-size: 25px;
     }
 
     .ww{
