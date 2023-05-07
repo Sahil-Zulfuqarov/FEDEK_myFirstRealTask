@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 150px;
-    background: linear-gradient(#333, orange, #333, orange, #333, orange, #333);
+    background: linear-gradient(#555, #999, #555, #999, #555, #999, #555);
 }
 
 div{
