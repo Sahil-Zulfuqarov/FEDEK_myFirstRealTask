@@ -156,6 +156,7 @@ footer{
 
 .divmenu{
     display: flex;
+    width: 100vw;
 }
 
 .menu1, .menu2, .menu3, .menu4, .menu5{
@@ -360,29 +361,67 @@ button:active{
         width: 100%;
     }
 
-    .aa1:hover .divulmenu{
+    .aa1:active .divulmenu{
         position: relative;
         width: 100%;
+    }
+
+    .aa2:active .divulaile{
+        position: relative;
+        width: 100%;
+    }
+
+    .aa3:active .divulusaq{
+        position: relative;
+        width: 100%;
+    }
+
+    .aa4:active .divulbiznes{
+        position: relative;
+        width: 100%;
+    }
+
+    .aa5:active .divulcay{
+        position: relative;
+        width: 100%;
+    }
+
+
+
+    .aa1:hover .divulmenu{
+        display: none;
     }
 
     .aa2:hover .divulaile{
-        position: relative;
-        width: 100%;
+        display: none;
     }
 
     .aa3:hover .divulusaq{
-        position: relative;
-        width: 100%;
+        display: none;
     }
 
     .aa4:hover .divulbiznes{
-        position: relative;
-        width: 100%;
+        display: none;
     }
 
     .aa5:hover .divulcay{
-        position: relative;
-        width: 100%;
+        display: none;
+    }
+
+
+
+
+    .headerdiv2, .headerdiv1{
+        display: none;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .abc1{
+        width: 70%;
+        margin-right: 300px;
     }
 
 }
