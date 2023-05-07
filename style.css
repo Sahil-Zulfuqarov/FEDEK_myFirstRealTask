@@ -443,6 +443,10 @@ button:active{
         font-size: 8px;
     }
 
+    .main{
+        background: linear-gradient(#333, orange, #333, orange, #333,orange,#333);    
+    }
+
     
 
 }
