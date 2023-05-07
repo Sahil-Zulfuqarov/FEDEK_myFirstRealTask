@@ -210,7 +210,7 @@ footer{
 
 .aa1, .aa2, .aa3, .aa4, .aa5{
     min-width: 190px;
-    width: 500px;
+    max-width: 1200px;
 }
 
 a{
@@ -222,7 +222,7 @@ a{
 }
 
 .ulmenu{
-    width: 300px;
+    width: ;
     background-color: #333;
     text-align: center;
 }
@@ -232,7 +232,7 @@ a{
 }
 
 .ulaile{
-    width: 300px;
+    width: ;
     background-color: #333;
     text-align: center;
 }
@@ -242,7 +242,7 @@ a{
 }
 
 .ulusaq{
-    width: 300px;
+    width: ;
     background-color: #333;
     text-align: center;
 }
@@ -252,7 +252,7 @@ a{
 }
 
 .ulbiznes{
-    width: 300px;
+    width: ;
     background-color: #333;
     text-align: center;
 }
@@ -262,7 +262,7 @@ a{
 }
 
 .ulcay{
-    width: 300px;
+    width: ;
     background-color: #333;
     text-align: center;
 }
@@ -352,4 +352,37 @@ button:hover{
 
 button:active{
     font-weight: 500;
+}
+
+@media(max-width: 950px){
+    .divmenu{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .aa1:hover .divulmenu{
+        position: relative;
+        width: 100%;
+    }
+
+    .aa2:hover .divulaile{
+        position: relative;
+        width: 100%;
+    }
+
+    .aa3:hover .divulusaq{
+        position: relative;
+        width: 100%;
+    }
+
+    .aa4:hover .divulbiznes{
+        position: relative;
+        width: 100%;
+    }
+
+    .aa5:hover .divulcay{
+        position: relative;
+        width: 100%;
+    }
+
 }
