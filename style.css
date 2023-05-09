@@ -162,6 +162,7 @@ footer{
     font-size: 25px;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 10px 0;
     height: 80px;
 }
@@ -438,7 +439,7 @@ button:active{
     }
 
     .ttt{
-        background: linear-gradient(white, #222);
+        background: linear-gradient(#999, #333);
         background-image: url(./noqte.png);
         background-blend-mode: darken;
     }
