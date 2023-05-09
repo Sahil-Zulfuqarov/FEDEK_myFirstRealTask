@@ -149,6 +149,7 @@ footer{
 
 .wwimg{
     width: 50px;
+    filter: drop-shadow(3px 2px 3px black);
 }
 
 .ww{
@@ -300,6 +301,10 @@ li:hover{
     position: relative;
 }
 
+ul{
+    box-shadow: 2px 2px 2px black;
+}
+
 .ttt{
     display: flex;
     flex-wrap: wrap;
@@ -312,6 +317,7 @@ li:hover{
 .kl{
     height: 231px;
     border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px black);
 }
 
 .rte{
@@ -322,6 +328,11 @@ li:hover{
     background:  linear-gradient(#999, #111);
     transform: rotateX(270deg);
     border-radius: 10px;
+    text-shadow: #111 1px 1px 1px;
+}
+
+.abb{
+    text-shadow: #111 2px 2px 1px;
 }
 
 .cards:hover .rte{
@@ -329,11 +340,17 @@ li:hover{
     border: 1px solid #222;
     background:  linear-gradient(#999, #111);
     transform: rotateX(0);
+    box-shadow: 3px 3px 5px #222;
     transition: 0.5s;
 }
 
 .cards:hover{
     transform: scale(1.1);
+}
+
+.cards:hover .kl{
+    filter: drop-shadow(5px 5px 3px black);
+    transition: 0.5s;
 }
 
 button{
