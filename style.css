@@ -442,8 +442,7 @@ button:active{
     }
 
     .ttt{
-        background: url(noqte.png), linear-gradient(#5C636E, green, #5C636E, green, #5C636E, green);
-        background-blend-mode: ;
+        background: url(noqte.png), #333;
     }
 
     
