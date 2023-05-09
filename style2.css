@@ -20,6 +20,7 @@ table{
     width: 100%;
     font-size: 20px;
     border-collapse: collapse;
+    text-shadow: rgb(150, 132, 100) 1px 1px 1px;
 }
 
 h2{
@@ -37,10 +38,6 @@ h2:hover{
     text-shadow:  #111 5px 5px 2px;
 }
 
-tr{
-
-}
-
 td{
     height: 40px;
     border-top: 1px solid #333;
@@ -51,4 +48,5 @@ tr:hover{
     transform: scale(1.01);
     transition: 0.5s;
     background-color: rgb(170, 118, 22);
+    text-shadow: none;
 }

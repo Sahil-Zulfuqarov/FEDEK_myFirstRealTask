@@ -45,6 +45,7 @@ h1{
     color: #d8f1d6;
     font-family: Lobster;
     font-weight: 700;
+    text-shadow: black 5px 5px 3px;
 }
 
 .abc{
@@ -57,9 +58,10 @@ h1{
     font-size: 30px;
     font-style: italic;
     letter-spacing: 2px;
-    color: burlywood;
+    color: red;
     font-family: Pacifico;
     font-weight: 900;
+    text-shadow: black 3px 3px 3px;
 }
 
 .headerdiv1{
@@ -68,7 +70,7 @@ h1{
     border-left: 20px solid #d8f1d6;
     height: 100px;
     border-radius: 6px;
-    
+    box-shadow: black -5px -5px 5px;
 }
 
 .headerdiv2{
@@ -78,6 +80,8 @@ h1{
     height: 100px;
     border-radius: 6px;
     margin-top: 80px;
+    box-shadow: black 5px 5px 5px;
+
 }
 
 main{
@@ -155,6 +159,7 @@ footer{
 
 .divmenu{
     display: flex;
+    text-shadow: black 2px 1px 2px;
 }
 
 .menu1, .menu2, .menu3, .menu4, .menu5{
