@@ -18,6 +18,7 @@ div{
 table{
     width: 100%;
     font-size: 20px;
+    border-collapse: collapse;
 }
 
 h2{
