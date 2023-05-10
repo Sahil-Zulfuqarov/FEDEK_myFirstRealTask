@@ -5,6 +5,7 @@
 body{
     font-family: Pacifico;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 150px;
     background: linear-gradient(#555, #999, #555, #999, #555, #999, #555);
