@@ -372,6 +372,11 @@ button:active{
     font-weight: 500;
 }
 
+.aff{
+    text-decoration: none;
+    color: #EDF1D6;
+}
+
 @media(max-width: 950px){
     body{
         display: flex;
