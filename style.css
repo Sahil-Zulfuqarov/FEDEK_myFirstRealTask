@@ -377,6 +377,10 @@ button:active{
     color: #EDF1D6;
 }
 
+.aff:hover{
+    cursor: pointer;
+}
+
 @media(max-width: 950px){
     body{
         display: flex;
