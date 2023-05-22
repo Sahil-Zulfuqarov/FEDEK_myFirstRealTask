@@ -51,3 +51,18 @@ tr:hover{
     background-color: rgb(170, 118, 22);
     text-shadow: none;
 }
+
+body::-webkit-scrollbar-thumb{
+    background: #666;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background: #444;
+}
+
+body::-webkit-scrollbar{
+    background: #999;
+    width: 10px;
+    border-radius: 5px;
+}
