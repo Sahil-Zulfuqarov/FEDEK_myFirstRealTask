@@ -90,13 +90,11 @@ footer{
     color: #EDF1D6;
 }
 
-.hr1, .hr2{
-    margin-bottom: 3px;
-    color: #EDF1D6;
-}
-
-.hr3{
-    color: #EDF1D6;
+.hr1, .hr2, .hr3, .hr4, .hr5, .hr6{
+    width: 100%;
+    border-top: 1px solid;
+    margin: 3px;
+    border-color: #EDF1D6;
 }
 
 .eee{
@@ -113,15 +111,6 @@ footer{
     margin-top: 30px;
     margin-left: 20px;
     font-size: 14px;
-}
-
-.hr4{
-    margin-top: 20px;
-}
-
-.hr5{
-    margin-top: 3px;
-    margin-bottom: 20px;
 }
 
 .rr{
